@@ -1,0 +1,14 @@
+URL: "https://cs57.salesforce.com/" #登录页面URL
+
+username:
+    tag: input
+    method: ID
+    search_str: "username"
+password:
+    tag: input
+    method: ID
+    search_str: "password"
+btn_login:
+    tag: button
+    method: ID
+    search_str: "Login"

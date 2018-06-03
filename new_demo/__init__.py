@@ -1,0 +1,2 @@
+global driver
+global currentWindowHandle

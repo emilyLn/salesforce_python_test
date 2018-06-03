@@ -1,0 +1,42 @@
+2018-03-26 14:42:48,193 - framework - INFO - open urlhttps://cs57.salesforce.com/
+2018-03-26 14:48:20,287 - framework - INFO - open urlhttps://cs57.salesforce.com/
+2018-03-26 14:50:26,431 - framework - INFO - open urlhttps://cs57.salesforce.com/
+2018-03-26 16:49:24,651 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 16:53:10,610 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 16:55:57,023 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 16:58:39,719 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 16:58:41,170 - framework - INFO - in page : login get element : username
+2018-03-26 16:58:42,484 - framework - INFO - in page : login get element : password
+2018-03-26 16:58:43,615 - framework - INFO - in page : login get element : btn_login
+2018-03-26 16:58:49,217 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 16:58:49,346 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 16:58:54,220 - framework - INFO - in page : daily_work_plan_detail get element : plan_info
+2018-03-26 16:58:54,298 - framework - INFO - in page : daily_work_plan_detail get element : plan_info
+2018-03-26 16:58:54,358 - framework - INFO - in page : daily_work_plan_detail get element : btn_modify
+2018-03-26 16:58:55,654 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 16:58:55,819 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:19:02,019 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 23:19:04,673 - framework - INFO - in page : login get element : u.s.e.r.n.a.m.e
+2018-03-26 23:19:05,616 - framework - INFO - in page : login get element : p.a.s.s.w.o.r.d
+2018-03-26 23:19:06,518 - framework - INFO - in page : login get element : b.t.n._.l.o.g.i.n
+2018-03-26 23:19:12,027 - framework - INFO - in page : menu get element : m._.m.o.r.e._.t.a.b.s
+2018-03-26 23:19:12,198 - framework - INFO - in page : menu get element : m._.m.o.r.e._.t.a.b.s
+2018-03-26 23:25:25,763 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 23:25:27,974 - framework - INFO - in page : login get element : username
+2018-03-26 23:25:28,992 - framework - INFO - in page : login get element : password
+2018-03-26 23:25:29,777 - framework - INFO - in page : login get element : btn_login
+2018-03-26 23:25:35,655 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:25:35,866 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:25:39,227 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:25:39,411 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:43:05,966 - framework - INFO - open url = https://cs57.salesforce.com/
+2018-03-26 23:43:08,179 - framework - INFO - in page : login get element : username
+2018-03-26 23:43:09,826 - framework - INFO - in page : login get element : password
+2018-03-26 23:43:10,255 - framework - INFO - in page : login get element : btn_login
+2018-03-26 23:43:14,794 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:43:14,879 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:43:18,049 - framework - INFO - in page : daily_work_plan_detail get element : plan_info
+2018-03-26 23:43:18,192 - framework - INFO - in page : daily_work_plan_detail get element : plan_info
+2018-03-26 23:43:18,272 - framework - INFO - in page : daily_work_plan_detail get element : btn_modify
+2018-03-26 23:43:19,612 - framework - INFO - in page : menu get element : m_more_tabs
+2018-03-26 23:43:19,743 - framework - INFO - in page : menu get element : m_more_tabs

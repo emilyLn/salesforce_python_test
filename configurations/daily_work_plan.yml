@@ -1,0 +1,68 @@
+btn_new:
+    tag: input
+    method: NAME
+    search_str: new
+
+plan_names:
+    tag: a
+    method: XPATH
+    search_str: "//tr[contains(@class, 'dataRow')]/th/a"
+    #search_str: ".hotListElement div div:nth-child(2) table tbody tr th a"
+     
+record_plan_page_element:
+    btn_save:
+        type: input
+        by: NAME
+        search_str: "page:form:pageblock:j_id6:j_id7"
+    btn_cancel:
+        type: input
+        by: NAME
+        search_str: "page:form:pageblock:j_id6:j_id8"
+    plan_info:
+        type: div
+        by: CSS_SELECTOR
+        search_str: "#page\\:form\\:pageblock\\:PlanInfo "
+        plan_date:
+            type: input
+            by: ID
+            search_str: "page:form:pageblock:PlanInfo:j_id9:Plan_Date__c"
+        start_time:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:PlanInfo:j_id13:Plan_Start_Time__c"
+        end_time:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:PlanInfo:j_id16:Plan_End_Time__c"
+        plan_content:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:PlanInfo:j_id19:Plan_Content__c"
+    actual_info:
+        type: div
+        by: CSS_SELECTOR
+        search_str: "#page\\:form\\:pageblock\\:ActualInfo "
+        actual_date:
+            type: input
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id22:Actual_Date__c"
+        actual_start_time:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id26:Actual_Start_Time__c"
+        actual_end_time:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id29:Actual_End_Time__c"
+        actual_content:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id32:Actual_Content__c"
+        no_action_reason:
+            type: textarea
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id35:No_Action_Reason__c"
+        actual_status:
+            type: select
+            by: ID
+            search_str: "page:form:pageblock:ActualInfo:j_id38:Status__c"

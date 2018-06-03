@@ -1,0 +1,28 @@
+plan_date:
+    tag: input
+    method: ID
+    search_str: "page:form:pageblock:PlanInfo:j_id9:Plan_Date__c"
+start_time:
+    tag: select
+    method: ID
+    search_str: "page:form:pageblock:PlanInfo:j_id13:Plan_Start_Time__c"
+end_time:
+    tag: select
+    method: ID
+    search_str: "page:form:pageblock:PlanInfo:j_id16:Plan_End_Time__c"
+plan_content:
+    tag: select
+    method: ID
+    search_str: "page:form:pageblock:PlanInfo:j_id19:Plan_Content__c"
+btn_save:
+    tag: input
+    method: NAME
+    search_str: "page:form:pageblock:j_id6:j_id7"
+cancel_btn:
+    tag: input
+    method: NAME
+    search_str: "page:form:pageblock:j_id6:j_id8"
+page_description:
+    tag: h2
+    method: CLASS_NAME
+    search_str: "pageDescription"

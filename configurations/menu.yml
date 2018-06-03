@@ -1,0 +1,28 @@
+---
+#菜单配置文件：
+#以"m_"开头的配置项名称为菜单项，其下都有对于页面元素配置的基本配置项：type、by、search_str
+#支持两级菜单
+
+m_home:
+  tag: li
+  method: CLASS_NAME
+  search_str: "zen-firstItem"
+m_hospital:
+  tag: li
+  method: CLASS_NAME
+  search_str: "wt-医院"
+m_medical_personel:
+  tag: li
+  method: CLASS_NAME
+  search_str: "wt-医护人员"
+m_more_tabs:  #更多选项  ps.还有很多菜单，暂时省略。。。
+  tag: li
+  method: CLASS_NAME
+  search_str: "zen-moreTabs"
+  m_daily_work_plan:  #其他菜单——日常工作计划菜单的class name，属于其他选项的子菜单
+    tag: li
+    method: CLASS_NAME
+    search_str: "wt-DailyWorkNote"
+
+
+    

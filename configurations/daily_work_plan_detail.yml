@@ -1,0 +1,72 @@
+btn_modify:
+    tag: input
+    method: NAME
+    search_str: modify
+btn_cancel:
+    tag: input
+    method: NAME
+    search_str: cancel
+btn_record:
+    tag: input
+    method: NAME
+    search_str: record
+page_description:
+    tag: h2
+    method: CLASS_NAME
+    search_str: "pageDescription"
+plan_info:
+    tag: div
+    method: ID
+    search_str: head_01B0k000000zfU5_ep
+    plan_type:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(1) td:nth-child(2)"
+    plan_status:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(1) td:nth-child(4)"
+    plan_date:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(2) td:nth-child(2)"
+    start_time:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(3) td:nth-child(2)"
+    end_time:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(3) td:nth-child(4)"
+    plan_content:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU5_ep + div tr:nth-child(4) td:nth-child(2)"
+actual_info:
+    tag: div
+    method: ID
+    search_str: head_01B0k000000zfU6_ep
+    actual_date:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(1) td:nth-child(2)"
+    actual_start_time:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(2) td:nth-child(2)"
+    actual_end_time:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(2) td:nth-child(4)"
+    actual_content:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(3) td:nth-child(2)"
+    no_action_reason:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(3) td:nth-child(4)"
+    actual_status:
+        tag: td
+        method: CSS_SELECTOR
+        search_str: "#head_01B0k000000zfU6_ep + div tr:nth-child(4) td:nth-child(2)"

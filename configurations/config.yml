@@ -1,0 +1,16 @@
+log:
+    file_name: test.log      # 输出日志文件名
+    backup: 5                # 备份名
+    console_level: WARNING  # 控制台输出等级
+    file_level: DEBUG       # 文件输出等级
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'  # 打印输出格式
+
+#selenium.webdriver.common.by.By的枚举值
+CLASS_NAME: 'class name'
+CSS_SELECTOR: 'css selector'
+ID: 'id'
+LINK_TEXT: 'link text'
+NAME: 'name'
+PARTIAL_LINK_TEXT: 'partial link text'
+TAG_NAME: 'tag name'
+XPATH: 'xpath'
